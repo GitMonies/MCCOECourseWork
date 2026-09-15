@@ -1,1 +1,45 @@
+Summary
+Target: Colonial Pipeline
+Ransomware called : Darkside (Darkside Ransomware Group)
+Intrusion Method: T0822 (External Remote Services Technique) Used a compromised, outdated VPN account belonging to a former employee
+Weakness: CWE-287 : Improper Authentication (Missing MFA)
+Immediate Impact: East coast pipelines shut down, sensitive information compromised, millions of Americans panic and many are unable to get fuel for several weeks.  
+Time: May 7 (Initial discovery) - May 12 (Nearly full renewal of operations)
+Operational Response: The physical operational technology (OT) network controlling the actual flow of fuel was not directly encrypted, but Colonial Pipeline voluntarily shut down operations to prevent the infection from spreading
 
+The company disconnected certain OT (Operational Technology) systems in immediate response to the attack.  Automatic control of pipeline immediately suspended for up to 8 (6) days.  
+
+
+
+Darkside is RaaS (Ransomware-as-a-service)
+
+
+
+Quoted from page 2 CISA.gov 
+
+https://www.cisa.gov/sites/default/files/publications/AA21-131A_Darkside_Ransomware.pdf
+
+According to open-source reporting, Darkside actors have previously been observed gaining initial
+access through phishing and exploiting remotely accessible accounts and systems and Virtual
+Desktop Infrastructure (VDI) (Phishing [T1566], Exploit Public-Facing Application [T1190], External
+Remote Services [T1133]).[5],[6] Darkside actors have also been observed using Remote Desktop
+Protocol (RDP) to maintain Persistence [TA0003].[7]
+
+- After gaining access, Darkside actors deploy Darkside ransomeware to encrpyt and steal sensitive data, and threaten to publicly release data if ransom isn't paid
+
+
+
+
+
+Attack Pipeline
+
+
+
+Links: 
+
+Detailed Summary (Department of Energy):
+https://cyote.inl.gov/content/uploads/24/2025/12/CyOTE-Case-Study_Colonial-Pipeline.pdf
+
+
+Indicators of Compromise: 
+https://www.cisa.gov/sites/default/files/publications/AA21-131A.stix.xml

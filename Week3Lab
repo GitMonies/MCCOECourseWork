@@ -24,3 +24,14 @@ Mitre T1486 - Detection Opportunities
 - AN0602 : High-frequency file write operations using uncommon extensions, followed by ransome note creation
 - AN0603 : Encryption via custom or open-source tools recursively targeting user or system directories
 - AN0604 : Userland or kernel-level ransomware encrypting user files (Documents, Desktop) 
+
+
+1: ransomeware: Encrypts files and demands user pays fee to unlock
+2: Worm: Malicious data that spreads independent of user or attacker action
+3: Virus: Malicious file that requires user interaction
+4: Spyware: Secretly spies and record user data and relays information to attacker
+5: Keylogger: Records keystrokes to gain users information (credentials) 
+6: Trojan: A malicious file that disguises itself as a legitimate file to trick user into opening
+7: Rootkit: Installs kernel/bios level malware that isn't detected by normal means
+8: Botnet Agent: Infects a computer to become a zombie agent that is later used for things like DDOS attacks
+9: RAT (Remote Access Trojan): Takes over a user's computer remotely, using a trojan file

@@ -18,3 +18,9 @@ Email Addresses	4
 Malware Files	4 filenames/variants
 Cryptographic Hashes	6
 Total Atomic IOCs	31
+
+
+Mitre T1486 - Detection Opportunities 
+- AN0602 : High-frequency file write operations using uncommon extensions, followed by ransome note creation
+- AN0603 : Encryption via custom or open-source tools recursively targeting user or system directories
+- AN0604 : Userland or kernel-level ransomware encrypting user files (Documents, Desktop) 
